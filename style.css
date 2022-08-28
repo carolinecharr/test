@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  background: hsl(217, 54%, 11%);
+  font-family: 'Roboto Flex', sans-serif;
+}
+
+section {
+  height: 100vh;
+}
+
+.card {
+  width: 20%;
+  margin: auto;
+  margin-top: 7%;
+  height: 70%;
+  background: hsl(216, 50%, 16%);
+  border-radius: 9px;
+  box-shadow: 10px 30px 5px #0c1729;
+}
+
+.card .content {
+  width: 225px;
+  margin: auto;
+  padding-top: 15px;
+}
+
+.card-box img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.nft-title {
+  font-weight: 900;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.nft-text {
+  color: hsl(215, 51%, 70%);
+  font-weight: 500;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.nft-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nft-details .nft-value {
+  color: hsl(178, 100%, 50%);
+  font-size: 10px;
+  font-weight: 800;
+  display: inline;
+  vertical-align: middle;
+}
+
+.nft-details .nft-value img {
+  width: 8px;
+}
+
+.nft-details .nft-clock {
+  color: hsl(215, 51%, 70%);
+  font-size: 10px;
+  font-weight: 800;
+}
+
+.nft-details .nft-clock img {
+  width: 14px;
+}
+
+.separator {
+  height: 1px;
+  background: hsl(215, 51%, 70%);
+  margin: 20px 0 15px 0;
+  opacity: 40%;
+}
+
+.creator-box {
+  display: flex;
+  color: hsl(215, 51%, 70%);
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.creator-box img {
+  width: 23px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+.creator-box .credits {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.creator-box .credits span {
+  color: #fff;
+}
